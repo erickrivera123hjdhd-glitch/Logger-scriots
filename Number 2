@@ -1,54 +1,690 @@
-[  0.00] send hook installed
-[  0.01] listening for: RemoteEvent, ReportPlayer, Reset, HandleReport, CreateProjectile, ImpactProjectile, Claim, sw, Ragdoll, Interact2, Handle, AdminPanel, Hi, ToggleReportQueue, ThrowItem, CreateProjectile, ProjectileImpact, Mark, ByteNetReliable, ByteNetUnreliable, ClientAnimalReady, lnteractStructure, Notify, Consume, seatState, CreateTribe, Upgrade, TribeInvite, TribeLeave, Toast, EquipTool, NewQuests, CosmeticChange, PlaceStructure, ToolSwapFromBag, DropTool, UnequipArmor, ToolSwap, UpdateAllPlayerList, TribeKick, MusicTool, BuyAdvancedCosmetics, ChestDrop, EquipCosmetic, PurchaseCosmetic, jav, PurchaseChest, ChangePlr, SendNotification, UpdateList, TargetTool, ProjectileImpact, CreateProjectile, HumanoidShimRemoteEvent, RodSwing, Weather, UnbanNotify, Rebirth, BuyMojoThing, PurchaseMojoItem, ShowUpdateNotifier, VoodooSpell, PromptModConsole, UnlockAdvancedCosmetics, VIPKick, ToggleMojo, BuyBoulderGamepass, PurchaseFromShop, ShowVoodooSelection, Testing, UseBagltem, Retool, ToggleDoor, DropBagItem, UseBagItem, CraftItem, ClientTween, TargetAcquire, ForceInteract, Pickup, button, SwingTool, UpdateData, ModPanel, Meteor, PromptSpellChoice, SubscriptionChanged, EnergyBolt, UpdateServerList, Teleport, Typewrite, ManageMember, Invisafy, RequestQuest, RequestQuestPlayer, ClaimPremiumPayout, Management, FreeCoins, ModPanel2, InteractStructure, BoltTween, CreateChest, WipeBuilds, CreateBobber, TribeJoinLeave, Request, PlaySoundAtPosition, EntityPositionalReplication, PlaySoundOnClient, HandleTween, SpawnToast, RodBubble, RodEnd, FadeTransition, UpdateClanData, ShakeModel, Ping, UnlockClanPass, TrackRender, HeadlessHorseman, ForgottenKnightEvent, GreybeardEvent, PropertyChanges, cookingStream, DefaultServerSoundEvent, AddCharacterLoadedEvent, RemoveCharacterEvent
-[  0.11] == ready (local player only): do one full cycle. After casting, WAIT for the bobber to dip, then tap. ==
-[  0.12] RECV EntityPositionalReplication | buffer(18): 00 37 f8 80 13 b5 da 41 30 35 5b 3b 14 cd 21 0e 00 d0
-[  0.12] RECV EntityPositionalReplication | buffer(18): 14 94 fe 80 13 b5 da 41 84 b5 85 36 c4 1f 21 fc 1f c7
-[  0.12] RECV EntityPositionalReplication | buffer(47): d5 03 05 81 13 b5 da 41 84 30 5b 3b 14 cd 01 f6 ff 1f 2a f6 25 86 a3 39 20 04 00 01 c8 f6 c2 6e 18 00 b9 ff 1a 4a d8 01 31 6a 8c 20 6e d0 30
-[  0.12] RECV EntityPositionalReplication | buffer(37): e1 5e 0b 81 13 b5 da 41 ec 33 01 21 58 e2 1d 77 df 1b 8a 46 d5 fe 00 d3 f3 03 6c 60 d4 e8 3d 01 95 08 57 80 23
-[  0.12] RECV EntityPositionalReplication | buffer(28): 3e ce 11 81 13 b5 da 41 28 b0 66 21 74 e2 9d 84 df 99 3e a6 a4 0a 05 8b 47 ff 5f 15
-[  0.12] RECV ByteNetReliable | buffer(6): 80 12 a7 97 01 00
-[  0.12] RECV ByteNetUnreliable | buffer(5): 92 0b 44 64 64
-[  0.12] RECV EntityPositionalReplication | buffer(18): d1 96 1e 81 13 b5 da 41 d8 30 2c 61 b0 0b 41 13 c0 c1
-[  0.23] RECV EntityPositionalReplication | buffer(18): 7c 62 2b 81 13 b5 da 41 30 35 5b 3b 14 cd 21 0e 00 d0
-[  0.33] RECV EntityPositionalReplication | buffer(18): 7d d0 31 81 13 b5 da 41 84 b5 85 36 c4 1f 21 fc 1f c7
-[  0.46] RECV EntityPositionalReplication | buffer(47): f5 2e 38 81 13 b5 da 41 84 30 5b 3b 14 cd 01 f6 ff 1f 2a f6 25 86 a3 39 20 04 00 01 c8 f6 c2 6e 18 00 b9 ff 1a 4a d8 01 31 6a 8c 20 6e d0 30
-[  0.51] RECV EntityPositionalReplication | buffer(37): 20 99 3e 81 13 b5 da 41 ec 33 01 21 58 e2 1d 77 df 1b 8a 46 d5 fe 00 d3 f3 03 6c 60 d4 e8 3d 01 95 08 57 80 23
-[  0.56] INPUT tap at 1122,570 (gui)
-[  0.63] RECV EntityPositionalReplication | buffer(28): 26 ff 44 81 13 b5 da 41 28 b0 66 21 74 e2 9d 84 df 99 3e a6 a4 0a 05 8b 47 ff 5f 19
-[  0.83] RECV EntityPositionalReplication | buffer(18): 95 d3 51 81 13 b5 da 41 d8 30 2c 61 b0 0b 41 13 c0 c1
-[  0.98] RECV ByteNetReliable | buffer(6): 80 12 a8 97 01 00
-[  0.98] RECV ByteNetUnreliable | buffer(5): 92 0c 44 64 64
-[  1.03] RECV EntityPositionalReplication | buffer(18): d0 98 5e 81 13 b5 da 41 30 35 5b 3b 14 cd 21 0e 00 d0
-[  1.13] RECV EntityPositionalReplication | buffer(18): 66 f5 64 81 13 b5 da 41 84 b5 85 36 c4 1f 21 fc 1f c7
-[  1.23] RECV EntityPositionalReplication | buffer(47): aa 62 6b 81 13 b5 da 41 84 30 5b 3b 14 cd 01 f6 ff 1f 2a f6 25 86 a3 39 20 04 00 01 c8 f6 c2 6e 18 00 b9 ff 1a 4a d8 01 31 6a 8c 20 6e d0 30
-[  1.33] RECV EntityPositionalReplication | buffer(37): 87 c0 71 81 13 b5 da 41 ec 33 01 21 58 e2 1d 77 df 1b 8a 46 d5 fe 00 d3 f3 03 6c 60 d4 e8 3d 01 95 08 57 80 23
-[  1.42] RECV EntityPositionalReplication | buffer(28): db 30 78 81 13 b5 da 41 28 b0 66 21 74 e2 9d 84 df 99 3e a6 a4 0a 05 8b 47 ff 5f 19
-[  1.60] INPUT tap at 744,5 (gui)
-[  1.65] RECV EntityPositionalReplication | buffer(18): 22 fc 84 81 13 b5 da 41 d8 30 2c 61 b0 0b 41 13 c0 c1
-[  1.70] player attr hasSpawned = true
-[  1.70] player attr teleporting = -139.78378295898438, -3.5000030994415283, -1069.2935791015625
-[  1.70] NEW GUI ImageButton Players.helpmetradetower23.PlayerGui.TouchGui.TouchControlFrame.JumpButton
-[  1.88] RECV EntityPositionalReplication | buffer(307): 3f c8 91 81 13 b5 da 41 08 00 7f fa 8f 1f 7d 71 fc 01 b6 a0 ee 7e 41 af db ba 1b 82 15 28 ec 9f 4f f4 1e 78 33 ea 80 dd fc 39 c2 9e e3 ae 44 15 a0 8e 3f f9 d1 f7 dc 7f 11 0b a7 f4 37 39 7a ec 3b 23 5f 01 70 ff b3 3f 3f 26 a7 c4 2b 88 af df 56 e9 3a e4 53 8c 02 51 f7 33 f1 7c 71 3c 9d 53 00 8b fe 54 a3 2f 8e 83 10 0e 16 c6 0f c8 75 fc 88 58 94 82 a6 f9 1b 9b ae 43 ae cd 52 a8 d8 7f db cf 75 c9 9f 70 0a cf f4 a7 36 7a ef bb 25 54 a1 28 fd a9 4b 47 27 97 a3 2a a4 f3 ff 2d e8 3a e4 16 98 11 46 0f 2c 46 bd f5 9d 06 94 d2 41 7f f1 b3 97 b6 9f b2 47 be df 7f 55 76 4b 77 03 06 48 45 00 58 f2 0e f6 6f 43 5a 4a 1e 81 95 bd 95 e2 cd 50 44 aa a7 27 29 f9 27 8f 2d 0a a8 59 08 9d 78 27 e1 77 a6 10 dd 5f a0 45 ed 2e d9 bc e8 21 c2 17 5c d6 fd ca 9f 02 4c 24 e0 81 03 b4 13 66 6f b1 92 d4 0d 50 4a f0 94 ff 64 b2 d1 71 04 a2 3c cf dd c0 43 4a 32 ee bf 04 e3 dd 1e 44 68 45 d4 fe b7 11 f7 d1 bf 1d 4c cd d6 0e 45 73 88 03 00 24
-[  1.93] RECV EntityPositionalReplication | buffer(248): 27 32 98 81 13 b5 da 41 0a 80 6c 21 56 58 07 56 81 62 e1 57 e8 15 8e 82 a7 60 38 a8 14 2e 85 4e 21 55 58 15 50 10 dd 0b 78 22 7d b6 5d 1a 0f 02 c0 01 4a a8 7b bb 97 40 4a c0 25 c0 29 f5 d9 f6 4f c0 89 ef 02 0a d0 ce 3e c1 44 44 69 1b 80 32 de bf fe 23 d1 24 11 1e 58 9d 7a e8 3b 07 16 c8 30 04 d1 56 bf 1b c6 00 09 0d 6a e0 2b f3 0e ff ec 98 25 90 eb 73 5b 5e 76 e6 0d 6c 34 24 7d 61 ca 77 c3 64 d2 88 60 63 5f 42 72 26 9e 35 b4 51 d1 fd 21 44 bf 3b e1 86 1c 82 69 be e1 e5 63 e9 01 e9 4b 2c ad 1f 04 f9 1b 0f 14 06 c9 0f f7 2a 8c d7 f9 6f 25 1e 41 ef 5f e6 db 47 ff 37 d0 23 61 da cb 9f 1b 0a c0 9d 1e 94 c4 7f 75 71 3b fc 7b 03 8a 32 0c 70 ab 76 bb 61 40 02 12 5c f8 f3 29 4f 30 ff 09 30 62 dc c0 24 da 53 84 01 09 6b 0b 6d 88 3f 42 f8 3f 8e
-[  1.96] RECV ByteNetReliable | buffer(6): 80 12 a9 97 01 00
-[  1.97] RECV ByteNetUnreliable | buffer(5): 92 0d 44 63 64
-[  2.00] RECV ByteNetReliable | buffer(20): 8e 04 62 01 01 8e 04 58 01 01 8e 04 54 01 01 8e 04 5e 01 01
-[  2.03] RECV ByteNetReliable | buffer(30): 8e 04 55 01 01 8e 04 4e 01 01 8e 04 75 00 01 8e 04 4a 01 01 8e 0d 2f 01 01 8e 04 5f 01 01
-[  2.03] RECV EntityPositionalReplication | buffer(289): 31 99 9e 81 13 b5 da 41 08 00 7f fa 8f 1f 7d 71 9c 42 b6 00 2b 48 d8 7f 9f e8 3d f0 4b d6 81 55 80 58 28 a5 7f c9 d1 63 df ff fc 0a bc 02 f8 fa 71 95 ae 43 de e6 28 78 0a 86 83 4a e1 52 e0 14 a4 e9 3f 6d f4 de 77 4b a8 c2 50 fa 57 97 8e 4e 4e 68 55 60 46 18 3d b0 18 f5 d6 77 1a 51 8a 3d f2 fd fe ab b2 5b ba 1b 38 40 88 a0 05 05 28 0e 3c e5 7f 14 77 54 cc fd 3d 6d e3 00 20 f1 96 e4 64 40 e0 76 ba 61 40 26 d1 dd 00 ac 4d af f3 cf 04 04 42 e5 00 93 db bb b2 1d 58 43 da ac bf 02 39 1c cf 1b ab 68 74 07 0f 76 97 e0 6f e7 1c dd a1 80 10 f0 94 11 38 dc a3 0a 00 48 8e be f6 5f 88 97 24 e1 00 8b 7c f3 4e d0 f0 93 fa 53 f0 14 f0 6e 78 10 38 51 18 00 24 c7 ed f0 af 82 2c ca ef fe bb e4 31 e6 8f 28 4a 37 38 30 93 3a ae 30 20 3c 28 1c f7 7a a2 77 f8 2f 23 84 d9 da a1 68 0e b0 ff ff 50 b1 2f 31 1c cd 01 21 00 08 40 b6 17 76 c3 00 c8 fd d7 50 c2 0e 88 51 63 04 71 83 06
-[  2.06] RECV ByteNetReliable | buffer(15): 8e 04 6c 01 01 8e 0d e0 00 01 8e 04 4b 01 01
-[  2.10] RECV ByteNetReliable | buffer(15): 8e 0d e1 00 01 8e 0d 29 01 01 8e 04 7b 00 01
-[  2.15] RECV EntityPositionalReplication | buffer(378): f8 fd a4 81 13 b5 da 41 08 00 7f fa 8f 1f 7d 71 9c 06 b6 d0 ee 7e 45 af db ba fb 82 15 fe eb 3f 51 74 1a 78 7f ea 40 d9 fc 49 c2 9e e3 fe 49 15 a0 8e 3f f9 d1 f7 dc 87 11 0b a7 f4 c7 38 7a ec 3b 17 5f 61 6e ff c4 3f 3f 26 7f c6 2b 1c af bf 58 e9 3a e4 b7 8c 02 51 f7 33 f1 7c 71 7c 80 53 00 8b fe 54 a3 2f 8e 27 10 0e 1c c6 2f c9 f5 fb 88 5a 94 82 aa f9 fd 9a ae 43 fe c2 52 68 d8 bf db cf 71 c9 09 71 0a d6 f4 3f 36 ba ef fb 29 54 21 25 fd b3 4b 47 27 c7 a5 2a 68 f3 ff 2b e8 3a e4 c1 50 10 dd 0b 78 22 7d b6 3d 59 0f 82 94 80 4b 80 53 ea b3 ed 8c 80 13 d3 05 60 a0 5d 80 62 c7 88 42 93 44 78 60 75 ea a1 ef 1c 60 20 01 12 e0 58 5d 6e f8 80 19 c4 f2 7f 1b 71 3b fc 47 83 85 a6 47 30 5d 6f ab f8 08 f6 91 80 10 2c f1 8e bb ef 0d 40 0a d0 40 50 e7 ef fd 8f 49 4a 22 d1 2f 3b 3c f6 7d 19 14 89 aa fd 01 a6 e7 07 d8 a0 1f 2d c2 df 42 f4 2e 11 60 b0 a2 db 1e c4 c8 7d 81 3f 0f 09 54 99 7c c8 c5 eb de 4f e1 8a 2e 66 c0 ec 74 50 61 40 b8 d1 a0 e8 d5 1b 9f 09 f1 05 39 a2 a7 c0 7b e3 5d 2b de 08 43 ce 06 30 86 fd 95 ff 22 30 09 39 ff e3 e8 66 9f 70 03 0f c1 8f e0 c1 de 4b f1 13 5c 22 5a f3 0f 6f fe 10 c0 04 a3 46 ef 09 a8 44 b8 02 1c c1
-[  2.23] RECV EntityPositionalReplication | buffer(236): 4e 5e ab 81 13 b5 da 41 08 00 7f fa 8f 1f 7d 71 1c 0a b6 10 ef fe 55 af cb ba d7 83 15 d6 eb 0f 53 f4 0e 78 75 ea 80 d0 fc 59 c2 9e e3 2e 4c 15 a0 8e 3f f9 d1 f7 dc b5 11 0b be f4 77 38 3a ec bb 14 5f 41 6c ff e4 3f 37 26 3f c7 2b 94 ae 5f 5a e9 3a e4 cb 8c 02 51 f7 33 f1 7c 71 fc 83 53 00 8b fe 54 a3 2f 8e bb 13 0e 30 c6 7f cc 75 fa 88 69 94 02 b2 f9 d5 9a ae 43 1e c5 52 68 d7 ff db cf 71 c9 6b 71 0a c3 f4 a7 35 ba ef bb 2b 54 c1 20 fd ba 4b 17 27 2f a6 2a 14 f3 3f 28 e8 3a e4 9f 98 11 46 0f 2c 46 bd f5 9d 06 94 d2 41 7f f1 b3 9b b6 ef b1 47 ae df df 52 76 48 77 4f 07 c8 b4 54 11 51 40 cd 42 e8 c4 3b 09 bf b3 85 a8 1e 8a 89 ae a4 d9 48 4a aa ed 3f f3 e2 e7 1e 96 6c 45 fa 98 92 2a 14 2c 1e fd 7f 85
-[  2.33] RECV EntityPositionalReplication | buffer(231): 54 c7 b1 81 13 b5 da 41 08 80 7f fa 8f 1f 7d 71 fc 0b b6 50 ef fe 67 af bb ba 0f 80 15 ae eb cf 54 f4 00 78 73 ea c0 c7 fc 6b c2 9e e3 8e 4c 15 a0 8e 3f f9 d1 f7 dc db 11 0b de f4 0f 38 ba ec 7b 14 5f 41 6a ff 03 40 17 26 5f c7 2b 10 ae ff 5b e9 3a e4 ce 8c 02 51 f7 33 f1 7c 71 1c 86 53 00 8b fe 54 a3 2f 8e 7f 13 0e 42 c6 cf cf 75 f8 88 75 94 42 b9 f9 ad 9a ae 43 7e c5 52 48 d6 3f dc cf 97 c9 7f 71 0a a5 f4 2f 35 ba ee fb 2b 54 41 1c fd c2 4b df 26 3f a6 2a c0 f2 9f 24 e8 3a e4 99 50 10 dd 0b 78 22 7d b6 5d 55 0f 82 94 80 4b 80 53 ea b3 ed 42 80 93 af 05 4c a1 9d 88 e2 de 88 42 93 44 78 60 75 ea a1 ef 1c 5a a0 48 a8 59 8a 8d 36 a2 da a8 1c da 97 1a a4 f1 28 3d da 83 82 a2 01 29 30 16
-[  2.43] RECV EntityPositionalReplication | buffer(235): 6e 35 b8 81 13 b5 da 41 08 80 7f fa 8b 1f 7d 71 fc 0c b6 90 ef fe 79 af a3 ba 13 80 15 84 eb 9f 56 74 f3 77 73 ea 40 bf fc 7d c2 8e e3 9e 4c 15 a0 8e 3f f9 d1 f7 dc ef 11 0b ff f4 97 37 7a ee 3b 14 5f 21 68 ff 23 40 7f 26 5f c7 2b 8c ad 9f 5d e9 3a e4 ce 8c 82 51 f7 33 f1 7c 71 1c 87 53 f0 8a 7e 55 a3 2f 8e 63 13 0e 54 c6 3f d3 75 f6 88 7c 94 c2 c0 f9 85 9a ae 43 8e c5 52 28 d5 7f dc cf cb c9 81 71 0a 84 f4 bf 34 ba ee fb 2b 54 e1 17 fd c9 4b ef 26 47 a6 2a 70 f2 ff 20 e8 4c e4 98 98 11 46 0f 2c 46 bd f5 9d 06 94 d2 41 7f f1 b3 9b b6 37 b1 47 96 df 6f 4e 76 2b f7 43 07 48 11 f4 2d 9d 44 21 d0 35 74 15 3d 47 ef 91 97 84 dd 80 f3 7c 83 4e e4 fb 93 72 a2 b2 68 51 ca 83 d8 30 2c 61 b0 0b 41 13 c0 61
-[  2.53] RECV EntityPositionalReplication | buffer(264): fb 93 be 81 13 b5 da 41 08 00 80 fa 8b 1f 7d 71 5c 0d b6 d0 ef 7e 8b af 93 ba 17 80 15 5c eb 6f 58 f4 ea 77 73 ea 80 b6 fc 8d c2 6e e3 9e 4c 15 a0 8e 7f f9 d1 f7 dc f9 11 0b 20 f5 27 37 fa f0 3b 14 5f 01 66 ff 43 40 8f 27 5f c7 2b 08 ad 3f 5f e9 3a e4 ce 8c 82 51 f7 33 f1 7c 71 9c 87 53 f0 8a 7e 55 a3 2f 8e 53 13 0e 68 c6 8f d6 f5 f4 88 00 94 02 c8 f9 5d 9a ae 43 8e c5 52 08 d4 bf dc cf fd c9 81 71 0a 62 f4 4f 34 ba f1 fb 2b 54 81 13 fd d0 4b 97 27 47 a6 2a 1c f2 3f 1d e8 72 e4 98 50 90 dc 0b 74 22 7d b6 3d 54 0f 82 94 84 4b a0 53 ea b3 ed 2b 80 93 8c 05 34 a2 dd 90 22 dc 88 42 93 44 78 60 75 ea a1 ef 1c 62 a0 33 08 16 9a 1e c1 74 bd ad e2 23 d8 47 02 42 b0 c4 3b ee be b7 00 69 52 42 91 a8 da 1f 60 7a 7e 80 0d fb 51 56 54 02 75 45 b9 51 72 14 26 c1 43 f0 23 78 b0 f7 52 fc 84 97 88
-[  2.63] RECV EntityPositionalReplication | buffer(236): fc fc c4 81 13 b5 da 41 08 00 80 fa 87 1f 7d 71 9c 0d b6 10 f0 7e 9d af 7b ba 17 80 15 34 eb 2f 5a f4 e8 77 73 ea c0 ad fc 9f c2 4e e3 9e 4c 15 a0 8e 7f f9 d1 f7 dc fd 11 0b 41 f5 af 36 7a f3 3b 14 5f 01 64 ff 63 40 2f 28 5f c7 2b 84 ac df 60 e9 52 e4 ce 8c 02 52 f7 33 f1 7c 71 dc 87 53 e0 8a fe 55 a3 2f 8e 4f 13 0e 7a c6 ef d9 f5 f2 88 02 94 82 cf f9 35 9a ae 43 8e c5 52 e8 d2 ff dc cf 13 ca 81 71 0a 41 f4 df 33 fa f5 fb 2b 54 21 0f fd d8 4b 77 28 47 a6 2a cc f1 9f 19 e8 9e e4 98 98 11 46 0f 2c 46 bd f5 9d 06 94 e2 41 7f f1 b3 97 b6 0b b1 47 7e df ff 49 76 1d 77 43 07 c8 b4 54 11 51 40 cd 42 e8 c4 3b 09 bf b3 85 a8 1e 8a 89 ae a4 d9 48 4a 1a ec 7f be e2 05 1f 0c 6d 45 98 9a ad 1d 8a e6 10 07 00 68
-[  2.73] RECV EntityPositionalReplication | buffer(240): 14 5d cb 81 13 b5 da 41 08 80 80 fa 83 1f 7d 71 9c 0d b6 50 f0 7e af af 3b ba 17 80 15 0c eb ff 5b 74 f2 77 73 ea 00 a5 fc af c2 3e e3 9e 4c 15 a0 8e bf f9 d1 f7 dc ff 11 0b 62 f5 3f 36 3a f6 3b 14 5f e1 61 ff 83 40 4f 28 5f c7 2b fc ab 7f 62 e9 82 e4 ce 8c 02 52 f7 33 f1 7c 71 dc 87 53 d0 8a 7e 56 a3 2f 8e 4b 13 0e 8c c6 3f dd 75 f1 08 03 94 c2 d6 f9 0d 9a ee 43 8e c5 52 c8 d1 3f dd cf 3d ca 81 71 0a 20 f4 6f 33 3a fa fb 2b 54 c1 0a fd df 4b 37 29 47 a6 2a 78 f1 ff 15 e8 cb e4 98 50 10 dc 0b 70 22 7d b6 fd 53 0f 82 94 88 4b c0 53 ea b3 ed 26 80 13 6a 05 1c a3 fd 98 82 db 88 42 93 44 78 60 75 ea a1 ef 1c 5a a0 48 a8 59 8a 8d 36 a2 da a8 1c da 97 1a a4 f1 28 3d da 83 82 a2 01 29 30 12 d6 16 da 10 7f 84 f0 7f 1c
-[  2.83] RECV EntityPositionalReplication | buffer(264): 7a c8 d1 81 13 b5 da 41 08 00 81 fa 7f 1f 7d 71 9c 0d b6 90 f0 7e c1 af e7 b9 17 80 15 e4 ea bf 5d f4 fd 77 73 ea 40 9c fc c1 c2 2e e3 9e 4c 15 a0 8e ff f9 d1 f7 dc ff 11 0b 83 f5 cf 35 3a fa 3b 14 5f c1 5f ff a2 40 47 28 5f c7 2b 78 ab 1f 64 e9 b3 e4 ce 8c 82 52 f7 33 f1 7c 71 fc 87 53 c0 8a fe 56 a3 2f 8e 4b 13 0e 9e c6 8f e0 75 ef 88 03 94 42 de f9 e3 99 6e 45 8e c5 52 a8 d0 7f dd cf 73 ca 81 71 0a ff f3 ff 32 7a fe fb 2b 54 41 06 fd e7 4b 8f 29 47 a6 2a 24 f1 5f 12 e8 f3 e4 98 98 11 46 0f 2c 46 bd f5 9d 06 94 02 42 7f f1 b3 97 b6 03 b1 47 66 df 8f 45 f6 1a 77 43 07 48 11 f4 2d 9d 44 21 d0 35 74 15 3d 47 ef 91 97 f4 d9 00 5b 7d 17 4e d0 fb 93 72 a2 b2 68 51 ca 83 84 30 5b 3b 14 cd 01 f6 ff 1f 2a f6 25 86 a3 39 20 04 00 01 c8 f6 c2 6e 18 00 b9 ff 1a 4a d8 01 31 6a 8c 20 6e d0 80
-[  2.95] RECV EntityPositionalReplication | buffer(274): 96 24 d8 81 13 b5 da 41 08 80 81 fa 7b 1f 7d 71 bc 0d b6 e0 f0 fe d2 af 9f b9 17 80 15 bc ea 8f 5f f4 01 78 73 ea 80 93 fc d1 c2 1e e3 9e 4c 15 a0 8e 3f fa d1 f7 dc 01 10 0b a4 f5 57 35 3a 02 3c 14 5f a1 5d ff c2 40 07 28 5f c7 2b f4 aa bf 65 e9 e0 e4 ce 8c 02 53 f7 33 f1 7c 71 fc 87 53 b0 8a 7e 57 a3 2f 8e 4b 13 0e b0 c6 df e3 75 ed 88 03 94 82 e5 f9 bb 99 be 47 8e c5 52 88 cf bf dd cf 81 ca 81 71 0a de f3 87 32 3a 00 fc 2b 54 e1 01 fd ee 4b 3f 2a 47 a6 2a d4 f0 9f 0e e8 06 e5 98 50 10 db 0b 68 22 7d b6 fd 53 0f 82 94 90 4b 00 54 ea b3 ed 26 80 13 47 05 04 a4 1d a1 82 db 88 42 93 44 78 60 75 ea a1 ef 1c 62 a0 33 08 16 9a 1e c1 74 bd ad e2 23 d8 47 02 42 b0 c4 3b ee be b7 00 69 52 42 91 a8 da 1f 60 7a 7e 80 0d fb 51 56 54 02 75 45 b9 51 72 14 26 c1 43 f0 23 78 b0 f7 52 fc 84 97 88 51 a3 f7 04 54 22 5c 01 8e 2c
-[  2.97] RECV ByteNetReliable | buffer(6): 80 12 aa 97 01 00
-[  2.97] RECV ByteNetUnreliable | buffer(5): 92 0e 44 63 64
-[  3.03] RECV EntityPositionalReplication | buffer(236): 14 94 de 81 13 b5 da 41 08 00 82 fa 77 1f 7d 71 bc 0d b6 10 f1 7e dc af b3 b9 17 80 15 92 ea 4f 61 f4 01 78 73 ea c0 8a fc e3 c2 0e e3 9e 4c 15 a0 8e 7f fa d1 f7 dc 01 10 0b c5 f5 e7 34 3a 07 3c 14 5f a1 5b ff e2 40 27 27 5f c7 2b 70 aa 5f 67 e9 05 e5 ce 8c 82 53 f7 33 f1 7c 71 fc 87 53 a0 8a fe 57 a3 2f 8e 4b 13 0e c4 c6 2f e7 f5 eb 88 03 94 02 ed f9 93 99 2e 4a 8e c5 52 68 ce ff dd cf 6d ca 81 71 0a bd f3 17 32 7a 00 fc 2b 54 81 fd fc f6 4b 0f 2b 47 a6 2a 80 f0 ff 0a e8 0a e5 98 98 11 46 0f 2c 46 bd f5 9d 06 94 22 42 7f f1 b3 97 b6 03 b1 47 4e df 1f 41 f6 16 77 43 07 c8 b4 54 11 51 40 cd 42 e8 c4 3b 09 bf b3 85 a8 1e 8a 89 ae a4 d9 48 4a 82 ea ff 89 e2 25 1f 12 6d 45 fa 98 92 2a 14 2c 1e fd 7f 65
-[  3.06] INPUT tap at 133,268 (gui)
-[  3.13] RECV EntityPositionalReplication | buffer(231): dc f2 e4 81 13 b5 da 41 08 80 82 fa 73 1f 7d 71 bc 0d b6 50 f1 fe e0 af db ba 17 80 15 6a ea 1f 63 f4 01 78 73 ea 40 82 fc f3 c2 fe e2 9e 4c 15 a0 8e bf fa d1 f7 dc 01 10 0b e6 f5 6f 34 3a 08 3c 14 5f 81 59 ff 02 41 ff 25 5f c7 2b ec a9 ff 68 e9 22 e5 ce 8c 82 54 f7 33 f1 7c 71 fc 87 53 90 8a 7e 58 a3 2f 8e 4b 13 0e d6 c6 7f ea f5 e9 88 03 94 42 f4 f9 6b 99 6e 4c 8e c5 52 48 cd 3f de cf 41 ca 81 71 0a 9c f3 a7 31 fa 00 fc 2b 54 21 f9 fc fd 4b 4f 2b 47 a6 2a 30 f0 5f 07 e8 09 e5 98 50 10 da 0b 60 22 7d b6 fd 53 0f 82 94 98 4b 40 54 ea b3 ed 26 80 13 24 05 ec a4 3d a9 62 db 88 42 93 44 78 60 75 ea a1 ef 1c 5a a0 48 a8 59 8a 8d 36 a2 da a8 1c da 97 1a a4 f1 28 3d da 83 82 a2 01 29 30 16
-[  3.25] RECV EntityPositionalReplication | buffer(235): 9e 60 eb 81 13 b5 da 41 08 00 83 fa 6f 1f 7d 71 bc 0d b6 a0 f1 7e f1 af 77 bb 17 80 15 42 ea df 64 f4 fe 77 73 ea 80 79 fc 05 c3 de e2 9e 4c 15 a0 8e ff fa d1 f7 dc 01 10 0b 07 f6 ff 33 3a 06 3c 14 5f 61 57 ff 22 41 cf 24 5f c7 2b 64 a9 7f 6a e9 32 e5 ce 8c 02 55 f7 33 f1 7c 71 fc 87 53 80 8a fe 58 a3 2f 8e 4b 13 0e e8 c6 cf ed 75 e8 88 03 94 c2 fb f9 43 99 6e 4e 8e c5 52 28 cc 7f de cf 13 ca 81 71 0a 7b f3 37 31 7a 06 fc 2b 54 c1 f4 fc 05 4c 17 2b 47 a6 2a dc ef 9f 03 e8 09 e5 98 98 11 46 0f 2c 46 bd f5 9d 06 94 42 42 7f f1 b3 97 b6 03 b1 47 36 df ef 3c 76 3f 77 43 07 48 11 f4 2d 9d 44 21 d0 35 74 15 3d 47 ef 91 97 64 d6 80 c2 7d ab 4d d0 fb 93 72 a2 b2 68 51 ca 83 d8 30 2c 61 b0 0b 41 13 c0 61
+--// Full Logger v6 - LOCAL PLAYER ONLY.
+--// New in v6:
+--//  * AUTO-MUTE: anything that spams (remote, sound, GUI text, new objects...) is detected and muted automatically.
+--//  * MUTED panel (right side): shows what got muted and how fast it spammed. Click an entry to unmute it.
+--//  * DECODED output: buffers are shown as hex + ASCII + numbers (u8 / i16 / i32 / f32 views), JSON strings are decoded,
+--//    tables are printed fully, Vector3/CFrame/Color3/etc. are readable. Nothing is left as raw "buffer".
+--// Do one full cycle, WAIT for the bobber to dip, then tap, then press COPY (also saves FishLog.txt if writefile exists).
+
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+local RS = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local SoundService = game:GetService("SoundService")
+local HttpService = game:GetService("HttpService")
+local lp = Players.LocalPlayer
+local pg = lp:WaitForChild("PlayerGui")
+
+local NEAR = 60          -- studs: unowned things this close to you count as yours
+local HOLD = 0.6         -- seconds every line waits (invisible) before it may appear on the GUI
+local GLOBAL_MAX = 20    -- hard cap on lines shown per second, whatever the source
+local PENDING_MAX = 400  -- safety limit for the holding queue
+
+---------------------------------------------------------------- settings (saved to FishLogSettings.json if your executor allows it)
+-- SENS = how many lines from ONE source within HOLD seconds make it count as spam
+local SENS = { { "HIGH", 2 }, { "MED", 3 }, { "LOW", 5 } }
+local SETTINGS_FILE = "FishLogSettings.json"
+local settings = { automute = true, sens = 2 }
+pcall(function()
+    if isfile and readfile and isfile(SETTINGS_FILE) then
+        local d = HttpService:JSONDecode(readfile(SETTINGS_FILE))
+        if type(d.automute) == "boolean" then settings.automute = d.automute end
+        if SENS[d.sens] then settings.sens = d.sens end
+    end
+end)
+local function saveSettings()
+    pcall(function()
+        if writefile then writefile(SETTINGS_FILE, HttpService:JSONEncode(settings)) end
+    end)
+end
+
+---------------------------------------------------------------- GUI
+local gui = Instance.new("ScreenGui")
+gui.Name = "FullLoggerGui"
+gui.ResetOnSpawn = false
+pcall(function() gui.Parent = (gethui and gethui()) or game:GetService("CoreGui") end)
+if not gui.Parent then gui.Parent = pg end
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0, 340, 0, 240)
+frame.Position = UDim2.new(0, 70, 0, 40)
+frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+frame.BackgroundTransparency = 0.1
+frame.Active = true
+frame.Draggable = false -- the old Draggable property doesn't work with touch; we use our own drag bar below
+frame.Parent = gui
+
+-- top bar: drag handle + settings buttons
+local titleBar = Instance.new("Frame")
+titleBar.Size = UDim2.new(1, 0, 0, 30)
+titleBar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+titleBar.BorderSizePixel = 0
+titleBar.Active = true
+titleBar.Parent = frame
+
+local dragLabel = Instance.new("TextLabel")
+dragLabel.Size = UDim2.new(0, 76, 1, 0)
+dragLabel.Position = UDim2.new(0, 4, 0, 0)
+dragLabel.BackgroundTransparency = 1
+dragLabel.Text = "< DRAG >"
+dragLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+dragLabel.Font = Enum.Font.GothamBold
+dragLabel.TextSize = 12
+dragLabel.Parent = titleBar
+
+local muteBtn = Instance.new("TextButton")
+muteBtn.Size = UDim2.new(0, 132, 1, -8)
+muteBtn.Position = UDim2.new(0, 84, 0, 4)
+muteBtn.TextColor3 = Color3.new(1, 1, 1)
+muteBtn.Font = Enum.Font.GothamBold
+muteBtn.TextSize = 11
+muteBtn.Parent = titleBar
+
+local sensBtn = Instance.new("TextButton")
+sensBtn.Size = UDim2.new(0, 96, 1, -8)
+sensBtn.Position = UDim2.new(0, 220, 0, 4)
+sensBtn.BackgroundColor3 = Color3.fromRGB(60, 60, 90)
+sensBtn.TextColor3 = Color3.new(1, 1, 1)
+sensBtn.Font = Enum.Font.GothamBold
+sensBtn.TextSize = 11
+sensBtn.Parent = titleBar
+
+-- custom drag (mouse + touch). The muted panel is a child of frame, so it moves along.
+do
+    local dragging, dragStart, startPos = false, nil, nil
+    titleBar.InputBegan:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = i.Position
+            startPos = frame.Position
+            i.Changed:Connect(function()
+                if i.UserInputState == Enum.UserInputState.End then dragging = false end
+            end)
+        end
+    end)
+    UIS.InputChanged:Connect(function(i)
+        if dragging and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
+            local d = i.Position - dragStart
+            local cam = workspace.CurrentCamera
+            local vp = cam and cam.ViewportSize or Vector2.new(1000, 700)
+            -- keep the bar on screen so you can always grab it again
+            local x = math.clamp(startPos.X.Offset + d.X, -frame.AbsoluteSize.X + 80, vp.X - 80)
+            local y = math.clamp(startPos.Y.Offset + d.Y, 0, vp.Y - 40)
+            frame.Position = UDim2.new(startPos.X.Scale, x, startPos.Y.Scale, y)
+        end
+    end)
+end
+
+local scroll = Instance.new("ScrollingFrame")
+scroll.Size = UDim2.new(1, -8, 1, -68)
+scroll.Position = UDim2.new(0, 4, 0, 34)
+scroll.BackgroundTransparency = 1
+scroll.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scroll.CanvasSize = UDim2.new()
+scroll.ScrollBarThickness = 4
+scroll.Parent = frame
+Instance.new("UIListLayout", scroll)
+
+local copy = Instance.new("TextButton")
+copy.Size = UDim2.new(0.5, -6, 0, 28)
+copy.Position = UDim2.new(0, 4, 1, -32)
+copy.Text = "COPY"
+copy.Font = Enum.Font.GothamBold
+copy.TextSize = 14
+copy.Parent = frame
+
+local clear = copy:Clone()
+clear.Text = "CLEAR"
+clear.Position = UDim2.new(0.5, 2, 1, -32)
+clear.Parent = frame
+
+-- muted panel (child of main frame so it drags along with it)
+local mutePanel = Instance.new("Frame")
+mutePanel.Size = UDim2.new(0, 190, 1, 0)
+mutePanel.Position = UDim2.new(1, 6, 0, 0)
+mutePanel.BackgroundColor3 = Color3.fromRGB(25, 12, 12)
+mutePanel.BackgroundTransparency = 0.1
+mutePanel.Parent = frame
+
+local muteTitle = Instance.new("TextLabel")
+muteTitle.Size = UDim2.new(1, 0, 0, 20)
+muteTitle.BackgroundTransparency = 1
+muteTitle.TextColor3 = Color3.fromRGB(255, 120, 120)
+muteTitle.Font = Enum.Font.GothamBold
+muteTitle.TextSize = 12
+muteTitle.Text = "MUTED (tap to unmute)"
+muteTitle.Parent = mutePanel
+
+local muteScroll = Instance.new("ScrollingFrame")
+muteScroll.Size = UDim2.new(1, -8, 1, -54)
+muteScroll.Position = UDim2.new(0, 4, 0, 22)
+muteScroll.BackgroundTransparency = 1
+muteScroll.AutomaticCanvasSize = Enum.AutomaticSize.Y
+muteScroll.CanvasSize = UDim2.new()
+muteScroll.ScrollBarThickness = 4
+muteScroll.Parent = mutePanel
+local muteLayout = Instance.new("UIListLayout", muteScroll)
+muteLayout.Padding = UDim.new(0, 2)
+
+local unmuteAll = Instance.new("TextButton")
+unmuteAll.Size = UDim2.new(1, -8, 0, 26)
+unmuteAll.Position = UDim2.new(0, 4, 1, -30)
+unmuteAll.Text = "UNMUTE ALL"
+unmuteAll.Font = Enum.Font.GothamBold
+unmuteAll.TextSize = 12
+unmuteAll.Parent = mutePanel
+
+local t0 = os.clock()
+local lines = {}
+local labels = {}
+local function log(text, ts)
+    text = string.format("[%6.2f] %s", (ts or os.clock()) - t0, text)
+    if #lines > 2500 then table.remove(lines, 1) end
+    table.insert(lines, text)
+    local l = Instance.new("TextLabel")
+    l.Size = UDim2.new(1, 0, 0, 0)
+    l.AutomaticSize = Enum.AutomaticSize.Y
+    l.BackgroundTransparency = 1
+    l.TextColor3 = Color3.new(1, 1, 1)
+    l.TextXAlignment = Enum.TextXAlignment.Left
+    l.TextWrapped = true
+    l.Font = Enum.Font.Code
+    l.TextSize = 12
+    l.Text = text
+    l.Parent = scroll
+    table.insert(labels, l)
+    if #labels > 120 then table.remove(labels, 1):Destroy() end
+    scroll.CanvasPosition = Vector2.new(0, 1e6)
+end
+
+copy.MouseButton1Click:Connect(function()
+    local all = table.concat(lines, "\n")
+    pcall(function() if writefile then writefile("FishLog.txt", all) end end)
+    if setclipboard then
+        setclipboard(all)
+        copy.Text = "COPIED"
+        task.delay(1, function() copy.Text = "COPY" end)
+    else
+        copy.Text = "NO CLIPBOARD"
+    end
+end)
+clear.MouseButton1Click:Connect(function()
+    lines = {}
+    for _, l in ipairs(labels) do l:Destroy() end
+    labels = {}
+end)
+
+---------------------------------------------------------------- spam detection + auto-mute
+local stats = {}   -- key -> { t, n, strikes, rate }
+local muted = {}   -- key -> { rate = peak per second, suppressed = count }
+local muteButtons = {}
+
+local function refreshMutePanel()
+    for _, b in pairs(muteButtons) do b:Destroy() end
+    muteButtons = {}
+    local count = 0
+    for key, info in pairs(muted) do
+        count += 1
+        local b = Instance.new("TextButton")
+        b.Size = UDim2.new(1, 0, 0, 0)
+        b.AutomaticSize = Enum.AutomaticSize.Y
+        b.BackgroundColor3 = Color3.fromRGB(60, 25, 25)
+        b.TextColor3 = Color3.new(1, 1, 1)
+        b.TextXAlignment = Enum.TextXAlignment.Left
+        b.TextWrapped = true
+        b.Font = Enum.Font.Code
+        b.TextSize = 11
+        b.Text = string.format("%s\n~%d/s, %d hidden", key, info.rate, info.suppressed)
+        b.Parent = muteScroll
+        b.MouseButton1Click:Connect(function()
+            muted[key] = nil
+            stats[key] = nil
+            log("UNMUTED " .. key)
+            refreshMutePanel()
+        end)
+        muteButtons[key] = b
+    end
+    muteTitle.Text = "MUTED: " .. count .. (settings.automute and " (tap to unmute)" or " (auto-mute OFF)")
+end
+
+unmuteAll.MouseButton1Click:Connect(function()
+    muted = {}
+    stats = {}
+    log("UNMUTED ALL")
+    refreshMutePanel()
+end)
+
+-- HOLDING QUEUE: nothing from a source goes straight to the GUI. Each line waits HOLD seconds in a hidden
+-- queue while we count how often that source fires. If it spams, it is muted and every held line from it is
+-- thrown away (so none of it is ever shown). Quiet sources are released to the GUI after the hold, with their
+-- original timestamp. Already-muted sources never enter the queue at all.
+local pending = {}
+
+-- normalise changing numbers / ids in names so "Fish123", "Fish124"... count as ONE source
+local function normalize(key)
+    return (key:gsub("%x%x%x%x%x%x+", "#"):gsub("%d+", "#"))
+end
+
+-- cheap pre-check (use it before building expensive text, e.g. decoding remote args)
+local function isMuted(key)
+    if not settings.automute then return false end
+    local m = muted[normalize(key)]
+    if m then
+        m.suppressed += 1
+        return true
+    end
+    return false
+end
+
+local function logk(key, text)
+    if not settings.automute then -- setting OFF: no holding, no muting, everything shows live
+        log(text)
+        return
+    end
+    key = normalize(key)
+    if muted[key] then
+        muted[key].suppressed += 1
+        return
+    end
+    local now = os.clock()
+    local s = stats[key]
+    if not s then
+        s = { times = {} }
+        stats[key] = s
+    end
+    local times = s.times
+    table.insert(times, now)
+    while times[1] and now - times[1] > HOLD do table.remove(times, 1) end
+
+    if #times >= SENS[settings.sens][2] then
+        muted[key] = { rate = math.floor(#times / HOLD), suppressed = 0 }
+        -- drop everything this source still has waiting, so none of it is shown
+        for i = #pending, 1, -1 do
+            if pending[i].key == key then table.remove(pending, i) end
+        end
+        log("AUTO-MUTED (spam) " .. key)
+        refreshMutePanel()
+        return
+    end
+
+    if #pending >= PENDING_MAX then table.remove(pending, 1) end
+    table.insert(pending, { key = key, text = text, t = now })
+end
+
+-- release loop: only lines that survived the hold AND are still not muted reach the GUI
+task.spawn(function()
+    local shown = { t = 0, n = 0 }
+    while gui.Parent do
+        task.wait(0.1)
+        local now = os.clock()
+        while pending[1] and now - pending[1].t >= HOLD do
+            local e = table.remove(pending, 1)
+            if not muted[e.key] then
+                if now - shown.t > 1 then shown.t, shown.n = now, 0 end
+                shown.n += 1
+                if shown.n <= GLOBAL_MAX then log(e.text, e.t) end
+            end
+        end
+    end
+end)
+
+-- settings buttons
+local function updateSettingsUI()
+    muteBtn.Text = "AUTO-MUTE: " .. (settings.automute and "ON" or "OFF")
+    muteBtn.BackgroundColor3 = settings.automute and Color3.fromRGB(30, 110, 50) or Color3.fromRGB(130, 35, 35)
+    sensBtn.Text = "SENS: " .. SENS[settings.sens][1]
+    sensBtn.Visible = settings.automute
+    refreshMutePanel()
+end
+
+muteBtn.MouseButton1Click:Connect(function()
+    settings.automute = not settings.automute
+    saveSettings()
+    if settings.automute then
+        stats = {}
+        log("AUTO-MUTE ON")
+    else
+        -- show everything that was still waiting in the hidden queue
+        for _, e in ipairs(pending) do log(e.text, e.t) end
+        pending = {}
+        log("AUTO-MUTE OFF: everything is shown live, nothing is held or muted")
+    end
+    updateSettingsUI()
+end)
+
+sensBtn.MouseButton1Click:Connect(function()
+    settings.sens = settings.sens % #SENS + 1
+    stats = {}
+    saveSettings()
+    log(string.format("SENSITIVITY %s: a source is muted at %d lines within %.1fs", SENS[settings.sens][1], SENS[settings.sens][2], HOLD))
+    updateSettingsUI()
+end)
+
+-- keep the hidden counters in the panel fresh
+task.spawn(function()
+    while gui.Parent do
+        task.wait(2)
+        if next(muted) then pcall(refreshMutePanel) end
+    end
+end)
+
+---------------------------------------------------------------- decoding helpers
+local function fmtV(v) return string.format("%.1f,%.1f,%.1f", v.X, v.Y, v.Z) end
+
+local function decodeBuffer(b)
+    local len = buffer.len(b)
+    local hexParts, ascii, bytes = table.create(len), table.create(len), table.create(len)
+    for i = 0, len - 1 do
+        local byte = buffer.readu8(b, i)
+        hexParts[i + 1] = string.format("%02x", byte)
+        ascii[i + 1] = (byte >= 32 and byte < 127) and string.char(byte) or "."
+        bytes[i + 1] = tostring(byte)
+    end
+    local out = {
+        string.format("BUFFER[%d bytes]", len),
+        "hex=" .. table.concat(hexParts, " "),
+        "ascii=\"" .. table.concat(ascii) .. "\"",
+        "u8=" .. table.concat(bytes, ","),
+    }
+    if len >= 2 then
+        local v = {}
+        for i = 0, len - 2, 2 do table.insert(v, tostring(buffer.readi16(b, i))) end
+        table.insert(out, "i16=" .. table.concat(v, ","))
+    end
+    if len >= 4 then
+        local iv, fv = {}, {}
+        for i = 0, len - 4, 4 do
+            table.insert(iv, tostring(buffer.readi32(b, i)))
+            table.insert(fv, string.format("%.3f", buffer.readf32(b, i)))
+        end
+        table.insert(out, "i32=" .. table.concat(iv, ","))
+        table.insert(out, "f32=" .. table.concat(fv, ","))
+    end
+    if len >= 8 and len % 8 == 0 then
+        local dv = {}
+        for i = 0, len - 8, 8 do table.insert(dv, string.format("%.4f", buffer.readf64(b, i))) end
+        table.insert(out, "f64=" .. table.concat(dv, ","))
+    end
+    return table.concat(out, " ")
+end
+
+local fmt
+fmt = function(v, depth)
+    depth = depth or 0
+    local t = typeof(v)
+    if t == "buffer" then return decodeBuffer(v) end
+    if t == "string" then
+        local first = v:sub(1, 1)
+        if first == "{" or first == "[" then
+            local ok, decoded = pcall(function() return HttpService:JSONDecode(v) end)
+            if ok then return "JSON" .. fmt(decoded, depth + 1) end
+        end
+        return string.format("%q", v)
+    end
+    if t == "Instance" then return v:GetFullName() .. " <" .. v.ClassName .. ">" end
+    if t == "Vector3" then return "V3(" .. fmtV(v) .. ")" end
+    if t == "Vector2" then return string.format("V2(%.1f,%.1f)", v.X, v.Y) end
+    if t == "CFrame" then return "CF(" .. fmtV(v.Position) .. ")" end
+    if t == "Color3" then return string.format("RGB(%d,%d,%d)", v.R * 255, v.G * 255, v.B * 255) end
+    if t == "UDim2" then return tostring(v) end
+    if t == "EnumItem" then return tostring(v) end
+    if t == "number" then
+        if v % 1 == 0 then return tostring(v) end
+        return string.format("%.4f", v)
+    end
+    if t == "table" then
+        if depth > 4 then return "{...}" end
+        local parts, n = {}, 0
+        local isArray = #v > 0
+        for k, x in pairs(v) do
+            n += 1
+            if n > 40 then table.insert(parts, "...") break end
+            if isArray and type(k) == "number" then
+                table.insert(parts, fmt(x, depth + 1))
+            else
+                table.insert(parts, tostring(k) .. "=" .. fmt(x, depth + 1))
+            end
+        end
+        return "{" .. table.concat(parts, ", ") .. "}"
+    end
+    return tostring(v)
+end
+
+local function join(...)
+    local args = table.pack(...)
+    local out = {}
+    for i = 1, args.n do out[i] = fmt(args[i]) end
+    return table.concat(out, " | ")
+end
+
+---------------------------------------------------------------- "is this mine?" helpers
+local function inOtherCharacter(inst)
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= lp and p.Character and inst:IsDescendantOf(p.Character) then
+            return true
+        end
+    end
+    return false
+end
+
+local function posOf(inst)
+    if inst:IsA("BasePart") then return inst.Position end
+    if inst:IsA("Attachment") then return inst.WorldPosition end
+    if inst:IsA("Model") then
+        local ok, cf = pcall(function() return inst:GetPivot() end)
+        if ok then return cf.Position end
+    end
+    local p = inst.Parent
+    if p and p:IsA("BasePart") then return p.Position end
+    return nil
+end
+
+local function isMine(inst)
+    local char = lp.Character
+    if char and inst:IsDescendantOf(char) then return true end
+    if inOtherCharacter(inst) then return false end
+
+    local cur = inst
+    while cur and cur ~= game do
+        local n = cur.Name
+        if n == lp.Name or n == lp.DisplayName or n == tostring(lp.UserId) then return true end
+        local ok, attrs = pcall(function() return cur:GetAttributes() end)
+        if ok then
+            for _, v in pairs(attrs) do
+                if v == lp.Name or v == lp.DisplayName or v == lp.UserId then return true end
+                if typeof(v) == "Instance" and (v == lp or v == char) then return true end
+            end
+        end
+        cur = cur.Parent
+    end
+
+    local root = char and char:FindFirstChild("HumanoidRootPart")
+    local pos = posOf(inst)
+    if root and pos and (pos - root.Position).Magnitude <= NEAR then return true end
+    return false
+end
+
+-- true if a remote's args point at some OTHER player
+local function mentionsOther(v, depth)
+    depth = depth or 0
+    local t = typeof(v)
+    if t == "Instance" then
+        if v:IsA("Player") then return v ~= lp end
+        return inOtherCharacter(v)
+    elseif t == "string" or t == "number" then
+        for _, p in ipairs(Players:GetPlayers()) do
+            if p ~= lp and (v == p.Name or v == p.DisplayName or v == p.UserId) then return true end
+        end
+    elseif t == "table" and depth < 3 then
+        for k, x in pairs(v) do
+            if mentionsOther(k, depth + 1) or mentionsOther(x, depth + 1) then return true end
+        end
+    end
+    return false
+end
+
+---------------------------------------------------------------- remotes: sent (always you)
+local hooked = false
+if hookfunction then
+    for _, def in ipairs({ { "RemoteEvent", "FireServer" }, { "RemoteFunction", "InvokeServer" }, { "UnreliableRemoteEvent", "FireServer" } }) do
+        pcall(function()
+            local fn = Instance.new(def[1])[def[2]]
+            local old
+            old = hookfunction(fn, function(self, ...)
+                if typeof(self) == "Instance" and not isMuted("send:" .. self.Name) then
+                    task.defer(logk, "send:" .. self.Name, "SEND " .. self.Name .. " | " .. join(...))
+                end
+                return old(self, ...)
+            end)
+            hooked = true
+        end)
+    end
+end
+if not hooked and hookmetamethod and getnamecallmethod then
+    local old
+    old = hookmetamethod(game, "__namecall", function(self, ...)
+        local m = getnamecallmethod()
+        if (m == "FireServer" or m == "InvokeServer") and typeof(self) == "Instance" and not isMuted("send:" .. self.Name) then
+            task.defer(logk, "send:" .. self.Name, "SEND " .. self.Name .. " | " .. join(...))
+        end
+        return old(self, ...)
+    end)
+    hooked = true
+end
+log(hooked and "send hook installed" or "NO send hook possible")
+
+---------------------------------------------------------------- remotes: received (skip other players' events)
+local names = {}
+local function hookRecv(r)
+    pcall(function()
+        if r:IsA("RemoteEvent") or r:IsA("UnreliableRemoteEvent") then
+            table.insert(names, r.Name)
+            r.OnClientEvent:Connect(function(...)
+                local args = table.pack(...)
+                for i = 1, args.n do
+                    if mentionsOther(args[i]) then return end
+                end
+                if not isMuted("recv:" .. r.Name) then
+                    logk("recv:" .. r.Name, "RECV " .. r.Name .. " | " .. join(...))
+                end
+            end)
+        end
+    end)
+end
+for _, d in ipairs(RS:GetDescendants()) do hookRecv(d) end
+RS.DescendantAdded:Connect(hookRecv)
+log("listening for: " .. table.concat(names, ", "))
+
+---------------------------------------------------------------- bobber height (yours only, never muted)
+local tracked = {}
+local function trackBobber(part)
+    if tracked[part] or not part:IsA("BasePart") then return end
+    if not isMine(part) then return end
+    tracked[part] = true
+    local where = part.Parent and part.Parent.Name or "?"
+    local lastY, lastLog = nil, 0
+    local conn
+    conn = RunService.Heartbeat:Connect(function()
+        if not part.Parent then
+            conn:Disconnect()
+            log("BOBBER(" .. where .. ") removed")
+            return
+        end
+        local y = part.Position.Y
+        if lastY == nil then
+            lastY = y
+            log("BOBBER(" .. where .. ") start pos " .. fmtV(part.Position))
+            return
+        end
+        if math.abs(y - lastY) > 0.08 and os.clock() - lastLog > 0.1 then
+            log(string.format("BOBBER(%s) y=%.2f dy=%+.2f pos=%s", where, y, y - lastY, fmtV(part.Position)))
+            lastY, lastLog = y, os.clock()
+        end
+    end)
+    part.AttributeChanged:Connect(function(a)
+        logk("bobberattr:" .. a, "bobber attr " .. a .. " = " .. fmt(part:GetAttribute(a)))
+    end)
+end
+
+---------------------------------------------------------------- sounds (yours only)
+local function watchSound(s)
+    if not s:IsA("Sound") then return end
+    s.Played:Connect(function()
+        local mine = s:IsDescendantOf(pg) or s:IsDescendantOf(SoundService) or isMine(s)
+        if mine then
+            logk("sound:" .. s.Name, "SOUND " .. s.Name .. " (" .. (s.Parent and s.Parent.Name or "?") .. ")")
+        end
+    end)
+end
+for _, d in ipairs(game:GetDescendants()) do pcall(watchSound, d) end
+
+---------------------------------------------------------------- new objects in the world (yours only)
+workspace.DescendantAdded:Connect(function(d)
+    pcall(watchSound, d)
+    task.defer(function()
+        if not d.Parent then return end
+        local okMine, mine = pcall(isMine, d)
+        if not okMine or not mine then return end
+
+        if d.Name:lower():find("bobber", 1, true) then pcall(trackBobber, d) end
+        logk("obj:" .. d.ClassName .. ":" .. d.Name, "NEW OBJ " .. d.ClassName .. " " .. d:GetFullName())
+        if d:IsA("ParticleEmitter") or d:IsA("Beam") or d:IsA("Trail") then
+            d:GetPropertyChangedSignal("Enabled"):Connect(function()
+                logk("fx:" .. d.Name, "FX " .. d.ClassName .. " " .. d.Name .. " enabled=" .. tostring(d.Enabled))
+            end)
+        end
+    end)
+end)
+for _, d in ipairs(workspace:GetDescendants()) do
+    if d.Name:lower():find("bobber", 1, true) then pcall(trackBobber, d) end
+end
+
+---------------------------------------------------------------- GUI changes (PlayerGui is already local)
+local function watchGui(o)
+    if o:IsDescendantOf(gui) then return end
+    if o:IsA("GuiObject") then
+        o:GetPropertyChangedSignal("Visible"):Connect(function()
+            logk("vis:" .. o.Name, "GUI " .. (o.Visible and "SHOW " or "hide ") .. o:GetFullName())
+        end)
+    end
+    if o:IsA("TextLabel") or o:IsA("TextButton") then
+        o:GetPropertyChangedSignal("Text"):Connect(function()
+            local t = o.Text
+            if t and t:match("%a") and #t < 80 then
+                logk("text:" .. o.Name, "TEXT " .. o:GetFullName() .. " = " .. t)
+            end
+        end)
+    end
+end
+for _, d in ipairs(pg:GetDescendants()) do pcall(watchGui, d) end
+pg.DescendantAdded:Connect(function(d)
+    pcall(watchGui, d)
+    if d:IsA("GuiObject") and not d:IsDescendantOf(gui) then
+        local extra = ""
+        if (d:IsA("TextLabel") or d:IsA("TextButton")) and d.Text ~= "" then extra = " = " .. d.Text end
+        logk("newgui:" .. d.ClassName .. ":" .. d.Name, "NEW GUI " .. d.ClassName .. " " .. d:GetFullName() .. extra)
+    end
+end)
+
+---------------------------------------------------------------- inputs + attributes (yours)
+UIS.InputBegan:Connect(function(i, gp)
+    if i.UserInputType == Enum.UserInputType.Keyboard then
+        log("INPUT key " .. i.KeyCode.Name .. (gp and " (gui)" or ""))
+    elseif i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+        log("INPUT tap at " .. math.floor(i.Position.X) .. "," .. math.floor(i.Position.Y) .. (gp and " (gui)" or ""))
+    end
+end)
+
+lp.AttributeChanged:Connect(function(a)
+    logk("playerattr:" .. a, "player attr " .. a .. " = " .. fmt(lp:GetAttribute(a)))
+end)
+local function onChar(c)
+    c.AttributeChanged:Connect(function(a)
+        logk("charattr:" .. a, "char attr " .. a .. " = " .. fmt(c:GetAttribute(a)))
+    end)
+end
+if lp.Character then onChar(lp.Character) end
+lp.CharacterAdded:Connect(onChar)
+
+updateSettingsUI()
+log("== ready v6 (local player only, decoded output). Drag the top bar to move; AUTO-MUTE / SENS buttons are in the top bar. Do one full cycle: cast, WAIT for the bobber to dip, then tap. ==")
